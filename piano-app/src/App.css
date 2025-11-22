@@ -1,0 +1,23 @@
+.piano {
+  position: relative;
+  width: max-content;
+  margin: 40px auto;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.key.white {
+  width: 60px;
+  height: 240px;
+  background: white;
+  border: 1px solid black;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.key.white:active {
+  filter: brightness(0.9);
+}
